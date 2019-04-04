@@ -61,6 +61,7 @@ describe("Option-2 Person", () => {
 
         it("should have field name, age and class number", () => {
             const teacher = new Teacher("Tom", 21, klass);
+            console.log(teacher.klass,klass)
             expect(teacher.name).to.equal("Tom");
             expect(teacher.age).to.equal(21);
             expect(teacher.klass).to.equal(klass);
